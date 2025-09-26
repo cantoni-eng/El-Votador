@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Votaciones Semanales</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="pantalla-origen" class="pantalla activo">
+  <h2>¿De dónde vienes?</h2>
+  <button id="origen-ciencias">Ciencias</button>
+  <button id="origen-sociales">Sociales/Latín</button>
+</div>
+
+<div id="pantalla-fav" class="pantalla">
+  <h2>Vota por tu fav de esta semana</h2>
+  <div id="opciones-fav"></div>
+</div>
+
+<div id="pantalla-eliminar" class="pantalla">
+  <h2>Vota para eliminar</h2>
+  <div id="opciones-eliminar"></div>
+</div>
+
+<div id="pantalla-salvar" class="pantalla">
+  <h2>Salvar</h2>
+  <div id="opciones-salvar"></div>
+</div>
+
+<div id="pantalla-final" class="pantalla">
+  <h2>Resumen de la semana</h2>
+  <p><strong>FAV DE LA SEMANA:</strong> <span id="fav-semana"></span></p>
+  <p><strong>ELIMINADO:</strong> <span id="eliminado-semana"></span></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
